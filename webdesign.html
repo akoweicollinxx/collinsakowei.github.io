@@ -4,18 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Designs</title>
+    <title>UI/UX Designs</title>
+     <!-- font awesome -->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="webdesign.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 </head>
 <body>
-
-    <div class="hero">
-        <h1>Design 1</h1>
-        <h1>Design 2</h1>
-        <h1>Design 3</h1>
-        <h1>Design 4</h1>
-        <div class="img-box"></div>
-    </div>
+   <div class="container">
+    <!-- Slider main container -->
+ <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="graphics/w7.JPG"></div>
+      <div class="swiper-slide"><img src="graphics/w2.PNG"></div>
+      <div class="swiper-slide"><img src="graphics/w3.PNG"></div>
+      <div class="swiper-slide"><img src="graphics/w5.JPG"></div>
+      <div class="swiper-slide"><img src="graphics/w4.PNG"></div>
+      <div class="swiper-slide"><img src="graphics/w1.PNG"></div>
+      <div class="swiper-slide"><img src="graphics/w6.PNG"></div>
     
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+  </div>
+   </div>
+    
+   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+   <script>
+
+const swiper = new Swiper('.swiper', {
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+    },
+  loop: true,
+
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
+
+   </script>
+   
+</body>
+</html>
 </body>
 </html>
