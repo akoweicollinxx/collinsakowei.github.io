@@ -467,7 +467,11 @@ input[type="submit"]:hover{
 @media screen and(max-width: 600px){
     .menu-toggler{
         top: 2rem;
-        right: 2rem;
+        right: rem;
+    }
+    body{
+        background: url("sitebg2.jpg") no-repeat center fixed;
+        background-size: cover;
     }
     .landing-text h1{
         font-size: 8rem;
@@ -508,14 +512,7 @@ input[type="submit"]:hover{
         right: 2rem;
     }
 }
-@media screen and(min-width: 375px){
-    .menu-toggler {
-        right: 8rem;
-        width: 5rem;
-        height: 4rem;
-        
-    }
-}
+
 
 
 
