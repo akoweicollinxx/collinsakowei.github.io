@@ -43,7 +43,7 @@ body{
 /* responsive */
 @media(max-width: 480px) {
     .swiper{
-        width: 80%;
+        width: 90%;
     }
     
     .swiper-slide img{

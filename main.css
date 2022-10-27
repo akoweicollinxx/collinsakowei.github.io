@@ -197,6 +197,7 @@ li{
     /* flex: 1; */
     margin-right: 5rem;
 }
+
 .about-details{
     flex: 1;
 }
@@ -213,7 +214,7 @@ li{
 .fa-twitter-square:hover{
     color: #38a1f3;
 }
-.fa-instagram-square:hover{
+.fa-square-instagram:hover{
     color: #ea4c89;
 }
 .my-skills{
@@ -292,6 +293,10 @@ li{
 }
 .portfolio-description .cta:hover{
     color: #2f67cd;
+}
+.timeline{
+    position: relative;
+    left: 10px;
 }
 .timeline ul{
     border-left: 4px solid #ffe838;
@@ -438,6 +443,10 @@ input[type="submit"]:hover{
     .about-heading h1{
         font-size: 8rem;
     }
+    .profile-img{
+        position: relative;
+        top: -150px;
+    }
     .section-heading h1{
         font-size: 3rem;
     }
@@ -487,6 +496,8 @@ input[type="submit"]:hover{
     }
     .profile-img{
         margin: 0 0 7rem 0;
+        width: 50px;
+        height: 50px;
     }
     .portfolio-item{
         flex-direction: column;
@@ -502,6 +513,7 @@ input[type="submit"]:hover{
     .timeline p{
         font-size: 1.6rem;
     }
+    
     .timeline .date::before{
         font-size: 1.4rem;
     }
