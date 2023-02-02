@@ -50,3 +50,21 @@ body{
         height: 500px;
     }
 }
+@media(min-width: 768px) {
+    .swiper{
+        width: 65%;
+    }
+    
+    .swiper-slide img{
+        height: 800px;
+    }
+}
+@media(min-width: 1000px) {
+    .swiper{
+        width: 60%;
+    }
+    
+    .swiper-slide img{
+        height: 700px;
+    }
+}
