@@ -301,7 +301,7 @@ li{
 }
 .portfolio-img{
     flex: 1;
-    background: url("graphics/king\ james\ logo.png");
+    background: url("graphics/king\ james\ logo.PNG");
     background-position: center;
     background-size: cover;
     height: 450px;
@@ -312,22 +312,22 @@ li{
 }
 @keyframes img-slide{
     25%{
-        background: url("graphics/king\ james\ logo.png");
+        background: url("graphics/king\ james\ logo.PNG");
         background-position: center;
         background-size: cover;
     }
     50%{
-        background: url("graphics/dtp\ logo1.png");
+        background: url("graphics/dtp\ logo1.PNG");
         background-position: center;
         background-size: cover;
     }
     75%{
-        background: url("graphics/scovil\ card.jpg");
+        background: url("graphics/scovil\ card.JPG");
         background-position: center;
         background-size: cover;
     }
     100%{
-        background: url("graphics/amour\ billboard.png");
+        background: url("graphics/amour\ billboard.PNG");
         background-position: center;
         background-size: cover;
     }
@@ -353,7 +353,7 @@ li{
         background-size: cover;
     }
     50%{
-        background: url("graphics/w11.png");
+        background: url("graphics/w11.PNG");
         background-position: center;
         background-size: cover;
     }
@@ -363,7 +363,7 @@ li{
         background-size: cover;
     }
     100%{
-        background: url("graphics/w10.jpg");
+        background: url("graphics/w10.JPG");
         background-position: center;
         background-size: cover;
     }
@@ -549,17 +549,12 @@ input[type="submit"]:hover{
     .nav-link{
         font-size: 4.5rem;
     }
-    
-    .about .container {
-        display: grid;
-    }
     .about-heading h1{
         font-size: 8rem;
     }
     .profile-img{
         position: relative;
-        top: -100px;
-        left: 6%;
+        top: -150px;
     }
     .section-heading h1{
         font-size: 3rem;
@@ -599,7 +594,6 @@ input[type="submit"]:hover{
         background: url("sitebg2.jpg") no-repeat center fixed;
         background-size: cover;
     }
-    
     .landing-text h1{
         font-size: 8rem;
     }
@@ -611,9 +605,6 @@ input[type="submit"]:hover{
     }
     .about .container{
         flex-direction: column;
-    }
-    .web{
-        display: grid;
     }
     .profile-img{
         margin: 0 0 7rem 0;
@@ -644,7 +635,7 @@ input[type="submit"]:hover{
     .up{
         right: 2rem;
     }
-    .about .container {
+    .web{
         display: grid;
     }
 }
