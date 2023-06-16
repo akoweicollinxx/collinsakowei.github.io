@@ -214,6 +214,9 @@ li{
 .fa-twitter-square:hover{
     color: #38a1f3;
 }
+.fa-github:hover{
+    color: #38a1f3;
+}
 .fa-square-instagram:hover{
     color: #ea4c89;
 }
@@ -260,9 +263,116 @@ li{
 .portfolio-item:last-child{
     margin-bottom: 0;
 }
+.webdev h2{
+    font-size: 3rem;
+    font-weight: 300;
+    margin: 1rem 0;
+    text-align: center;
+}
+.webdev h6{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    opacity: 0.3;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.web{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 60px;
+}
+
+.web a{
+    position: relative;
+    width: 100%;
+    border: 1px solid #fff;
+    background: #fff;
+}
+.web a p{
+    font-size: 16px;
+    text-align: center;
+    color: #000;
+}
+.web a img{
+    width: 280px;
+}
 .portfolio-img{
     flex: 1;
+    background: url("graphics/king\ james\ logo.png");
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    width: 660px;
+    position: relative;
+    /* top: 80px; */
+    animation: img-slide 15s infinite;
 }
+@keyframes img-slide{
+    25%{
+        background: url("graphics/king\ james\ logo.png");
+        background-position: center;
+        background-size: cover;
+    }
+    50%{
+        background: url("graphics/dtp\ logo1.png");
+        background-position: center;
+        background-size: cover;
+    }
+    75%{
+        background: url("graphics/scovil\ card.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+    100%{
+        background: url("graphics/amour\ billboard.png");
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+
+
+.portfolio-img2{
+    flex: 1;
+    background: url("graphics/w6.PNG");
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    width: 660px;
+    position: relative;
+    /* top: 80px; */
+    animation: img-slide2 15s infinite;
+}
+@keyframes img-slide2{
+    25%{
+        background: url("graphics/w6.PNG");
+        background-position: center;
+        background-size: cover;
+    }
+    50%{
+        background: url("graphics/w11.png");
+        background-position: center;
+        background-size: cover;
+    }
+    75%{
+        background: url("graphics/w7.JPG");
+        background-position: center;
+        background-size: cover;
+    }
+    100%{
+        background: url("graphics/w10.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+}
+.portfolio-img3 img{
+
+}
+
+
 .portfolio-description{
     flex: 1;
 }
@@ -270,6 +380,7 @@ li{
     font-size: 3rem;
     font-weight: 300;
     margin: 1rem 0;
+    text-align: center;
    
 
 }
@@ -278,6 +389,7 @@ li{
     text-transform: uppercase;
     font-weight: 300;
     opacity: 0.3;
+    text-align: center;
 
 }
 .has-margin-right{
@@ -437,12 +549,17 @@ input[type="submit"]:hover{
     .nav-link{
         font-size: 4.5rem;
     }
+    
+    .about .container {
+        display: grid;
+    }
     .about-heading h1{
         font-size: 8rem;
     }
     .profile-img{
         position: relative;
-        top: -150px;
+        top: -100px;
+        left: 6%;
     }
     .section-heading h1{
         font-size: 3rem;
@@ -469,6 +586,9 @@ input[type="submit"]:hover{
     .timeline .date::after{
         left: -5.9rem;
     }
+    .web{
+        display: grid;
+    }
 }
 @media screen and(max-width: 600px){
     .menu-toggler{
@@ -479,6 +599,7 @@ input[type="submit"]:hover{
         background: url("sitebg2.jpg") no-repeat center fixed;
         background-size: cover;
     }
+    
     .landing-text h1{
         font-size: 8rem;
     }
@@ -490,6 +611,9 @@ input[type="submit"]:hover{
     }
     .about .container{
         flex-direction: column;
+    }
+    .web{
+        display: grid;
     }
     .profile-img{
         margin: 0 0 7rem 0;
@@ -519,6 +643,9 @@ input[type="submit"]:hover{
     }
     .up{
         right: 2rem;
+    }
+    .about .container {
+        display: grid;
     }
 }
 

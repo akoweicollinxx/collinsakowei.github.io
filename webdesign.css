@@ -30,8 +30,8 @@ body{
 }
 .swiper .swiper-button-prev,
 .swiper .swiper-button-next{
-    color: #fff;
-    background-color: #221e3f;
+    color: #221e3f;
+    /* background-color: #221e3f; */
     width: 70px;
     height: 70px;
     border-radius: 50%;
