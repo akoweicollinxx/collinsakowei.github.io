@@ -301,7 +301,7 @@ li{
 }
 .portfolio-img{
     flex: 1;
-    background: url("graphics/king\ james\ logo.PNG");
+    background: url("graphics/king\ james\ logo.png");
     background-position: center;
     background-size: cover;
     height: 450px;
@@ -312,17 +312,17 @@ li{
 }
 @keyframes img-slide{
     25%{
-        background: url("graphics/king\ james\ logo.PNG");
+        background: url("graphics/king\ james\ logo.png");
         background-position: center;
         background-size: cover;
     }
     50%{
-        background: url("graphics/dtp\ logo1.PNG");
+        background: url("graphics/dtp\ logo1.png");
         background-position: center;
         background-size: cover;
     }
     75%{
-        background: url("graphics/scovil\ card.JPG");
+        background: url("graphics/scovil\ card.jpg");
         background-position: center;
         background-size: cover;
     }
@@ -353,7 +353,7 @@ li{
         background-size: cover;
     }
     50%{
-        background: url("graphics/w11.PNG");
+        background: url("graphics/w11.png");
         background-position: center;
         background-size: cover;
     }
@@ -363,7 +363,7 @@ li{
         background-size: cover;
     }
     100%{
-        background: url("graphics/w10.JPG");
+        background: url("graphics/w10.jpg");
         background-position: center;
         background-size: cover;
     }
